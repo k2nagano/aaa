@@ -1,0 +1,6 @@
+std_msgs/Header header
+bool is_armed
+string flight_mode
+float32 voltage_battery
+float32 current_battery
+float32 battery_remaining

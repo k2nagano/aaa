@@ -1,0 +1,7 @@
+int32 OFF=0
+int32 WBC=1
+int32 ROV=1
+int32 main_mode
+---
+bool success
+string message

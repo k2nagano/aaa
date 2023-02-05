@@ -1,0 +1,22 @@
+<library path="uro_rviz_plugins">
+  <class name="uro_rviz_plugins/CloseAll" type="uro_rviz_plugins::CloseAllTool" base_class_type="rviz_common::Tool">
+    <description>
+      close all displays
+    </description>
+  </class>
+  <class name="uro_rviz_plugins/MotionControlModePanel" type="uro_rviz_plugins::MotionControlModePanel" base_class_type="rviz_common::Panel">
+    <description>motion control mode panel</description>
+  </class>
+  <class name="uro_rviz_plugins/PointTool" type="uro_rviz_plugins::PointTool" base_class_type="rviz_common::Tool">
+    <description>put marker and publish PointStamped</description>
+  </class>
+
+  <class name="uro_rviz_plugins/PointDisplay" type="uro_rviz_plugins::PointDisplay" base_class_type="rviz_common::Display">
+    <description>display PointStamped</description>
+  </class>
+
+  <class name="uro_rviz_plugins/LogDisplay" type="uro_rviz_plugins::LogDisplay" base_class_type="rviz_common::Display">
+    <description>display rosout</description>
+  </class>
+
+</library>
